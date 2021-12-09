@@ -1,7 +1,8 @@
 # Advent-of-Code
 
-This repository contains my solutions for [Advent of Code](https://adventofcode.com/). 
+![.NET](https://github.com/true-gler/advent-of-code/workflows/.NET/badge.svg?branch=main)
 
+This repository contains my solutions for [Advent of Code](https://adventofcode.com/). 
 I provide a folder for each year I participate.
 
 Each day is structured in a subfolder that contains:
