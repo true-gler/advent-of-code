@@ -13,7 +13,7 @@ Each day is structured in a subfolder that contains:
 ## Specfication
 Solutions are done in .NET 5.
 
-## Current Progresion*
+## Stats
 
 | Year | STARS |
  ------------- | ------------- |
