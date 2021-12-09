@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2dAnEDYjGJ3kHbYoy5y/uApB71oFRSvsLfzfRTqt5CUZsCQ48WQ2LyS0/Sivzw+RnL5yyVg/HCkaeA/VrTBqbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thomas\\source\\repos\\Advent-of-Code-2021\\day-1\\day-1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thomas\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

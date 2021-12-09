@@ -1,0 +1,17 @@
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\obj\Debug\net5.0\day-1.csprojAssemblyReference.cache
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\obj\Debug\net5.0\day-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\obj\Debug\net5.0\day-1.AssemblyInfoInputs.cache
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\obj\Debug\net5.0\day-1.AssemblyInfo.cs
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\obj\Debug\net5.0\day-1.csproj.CoreCompileInputs.cache
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\bin\Debug\net5.0\day-1.exe
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\bin\Debug\net5.0\day-1.deps.json
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\bin\Debug\net5.0\day-1.runtimeconfig.json
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\bin\Debug\net5.0\day-1.runtimeconfig.dev.json
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\bin\Debug\net5.0\day-1.dll
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\bin\Debug\net5.0\ref\day-1.dll
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\bin\Debug\net5.0\day-1.pdb
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\obj\Debug\net5.0\day-1.dll
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\obj\Debug\net5.0\ref\day-1.dll
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\obj\Debug\net5.0\day-1.pdb
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\obj\Debug\net5.0\day-1.genruntimeconfig.cache
+C:\Users\thomas\source\repos\Advent-of-Code-2021\day-1\bin\Debug\net5.0\input.txt
