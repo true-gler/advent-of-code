@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day-1", "day-1\day-1.csproj", "{DAAB8175-82BE-4C41-807D-EC21F359209E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "day-1", "day-1\day-1.csproj", "{DAAB8175-82BE-4C41-807D-EC21F359209E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Advent-of-Code-2021", "Advent-of-Code-2021", "{1BD82645-5CF0-4E88-BCBE-1DB0768AC8EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "day-2", "day-2\day-2.csproj", "{A1065C85-9091-4ADE-A724-F4521E826831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day-3", "day-3\day-3.csproj", "{CE5FDCCE-139F-4A6E-B439-A42C750D7E07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,22 @@ Global
 		{DAAB8175-82BE-4C41-807D-EC21F359209E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAAB8175-82BE-4C41-807D-EC21F359209E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAAB8175-82BE-4C41-807D-EC21F359209E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1065C85-9091-4ADE-A724-F4521E826831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1065C85-9091-4ADE-A724-F4521E826831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1065C85-9091-4ADE-A724-F4521E826831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1065C85-9091-4ADE-A724-F4521E826831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE5FDCCE-139F-4A6E-B439-A42C750D7E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5FDCCE-139F-4A6E-B439-A42C750D7E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5FDCCE-139F-4A6E-B439-A42C750D7E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5FDCCE-139F-4A6E-B439-A42C750D7E07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DAAB8175-82BE-4C41-807D-EC21F359209E} = {1BD82645-5CF0-4E88-BCBE-1DB0768AC8EA}
+		{A1065C85-9091-4ADE-A724-F4521E826831} = {1BD82645-5CF0-4E88-BCBE-1DB0768AC8EA}
+		{CE5FDCCE-139F-4A6E-B439-A42C750D7E07} = {1BD82645-5CF0-4E88-BCBE-1DB0768AC8EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F34265E-1630-4140-8549-FF23DBA2097A}

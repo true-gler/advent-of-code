@@ -17,7 +17,6 @@ namespace day_1
             Console.WriteLine(res2);
         }
 
-        //Part 1
         public static int CheckPart1(int i, int[] numbers)
         {
             if (i == numbers.Length-1) 
