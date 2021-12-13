@@ -18,7 +18,7 @@ Solutions are done in .NET 5.
 
 | Year | STARS |
  ------------- | ------------- |
- 2021 | 2 :star:|
+ 2021 | 5 :star:|
 
 ## Contact
 For any question, you can find me:
