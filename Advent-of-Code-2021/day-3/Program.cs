@@ -75,19 +75,22 @@ namespace day_3
         private static string Reduce(string [] arr, int index)
         {
             if (arr.Length == 1) return arr[0];
+            ones = 0;
+            zeros = 0;
 
             foreach (var item in arr)
             {
                 _ = item[index] == '1' ? ones++ : zeros++;
-
-                if (oxygen)
-                    _ = ones >= zeros ? bitCriteria = '1' : bitCriteria = '0';
-                else
-                    _ = ones < zeros ? bitCriteria = '1' : bitCriteria = '0';
             }
 
-            return Reduce(arr.Where(x => x[index] == bitCriteria).ToArray(), index+1);
-         
+
+            if (oxygen)
+                _ = ones >= zeros ? bitCriteria = '1' : bitCriteria = '0';
+            else
+                _ = ones < zeros ? bitCriteria = '1' : bitCriteria = '0';
+
+            var reducedSet = arr.Where(x => x[index] == bitCriteria).ToArray();
+            return Reduce(reducedSet, index + 1);                  
         }
 
     }
