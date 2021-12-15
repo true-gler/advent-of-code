@@ -13,7 +13,7 @@ namespace day_7
             List<int> horizontal = new List<int>(){ 3, 4, 3, 1, 2 };
             // List<int> lanternFish = new(Array.ConvertAll(input[0].Split(','), Convert.ToInt32));
 
-            GetMedian(horizontal.ToArray());
+            //GetMedian(horizontal.ToArray());
         }
 
         public static double GetMedian(double[] sourceNumbers)
