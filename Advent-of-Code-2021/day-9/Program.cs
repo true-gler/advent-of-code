@@ -40,7 +40,30 @@ namespace day_9
                 y++;
             }
             Console.WriteLine(riskPoints);
+
+            CalculateBasins(lowPoints, field);
         }
+
+        //private static void CalculateBasins(List<(int y,int x)> lowPoints, int[][] field)
+        //{
+        //    //In jede richtung bis 9 oder index = 0;
+        //    //Innerhalb jedes
+
+
+
+        //    foreach (var item in lowPoints)
+        //    {
+        //        field.Select(x => x.Select(y => y. )
+        //    }
+            
+
+
+        //}
+        //private static bool IsBasinPoint(int y, int x, int[][] field)
+        //{
+        //    if()
+        //    return true;
+        //}       
 
         private static bool IsLowPoint(int y, int x, int[][] field)
         {
