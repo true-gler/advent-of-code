@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace day_7
 {
@@ -10,23 +11,36 @@ namespace day_7
         {
             string[] input = File.ReadAllLines(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "input.txt"));
 
-            List<int> horizontal = new List<int>(){ 3, 4, 3, 1, 2 };
-            // List<int> lanternFish = new(Array.ConvertAll(input[0].Split(','), Convert.ToInt32));
+           // List<int> list = new List<int>(){ 16, 1, 2, 0, 4, 2, 7, 1, 2, 14 };
+            List<int> list = new(Array.ConvertAll(input[0].Split(','), Convert.ToInt32));            
 
-            //GetMedian(horizontal.ToArray());
+            //part 1
+            var med = GetMedian(list.ToArray());
+
+            var sum = list.Select(x => (int)(Math.Abs(x - med))).Sum();
+            Console.WriteLine(sum);
+
+            //part 2
+
+            double a = list.Average(); // 488.507
+            double avg = Math.Round(a); // Rounds to 489
+            avg = 488; //but this is correct
+
+            var sum2 = list.Select(x => GaussSum((int)Math.Abs(x - avg))).Sum();
+            Console.WriteLine(sum2);
         }
 
-        public static double GetMedian(double[] sourceNumbers)
+        private static int GaussSum(int v)
         {
-            //Framework 2.0 version of this method. there is an easier way in F4        
-            if (sourceNumbers == null || sourceNumbers.Length == 0)
-                throw new System.Exception("Median of empty array not defined.");
+            return ((v * v ) + v) / 2;
+        }
 
+        public static double GetMedian(int[] sourceNumbers)
+        {
             //make sure the list is sorted, but use a new array
-            double[] sortedPNumbers = (double[])sourceNumbers.Clone();
+            int[] sortedPNumbers = (int[])sourceNumbers.Clone();
             Array.Sort(sortedPNumbers);
 
-            //get the median
             int size = sortedPNumbers.Length;
             int mid = size / 2;
             double median = (size % 2 != 0) ? (double)sortedPNumbers[mid] : ((double)sortedPNumbers[mid] + (double)sortedPNumbers[mid - 1]) / 2;
